@@ -1,0 +1,6 @@
+us_percent.csv
+https://www.nei.org/resources/statistics/state-electricity-generation-fuel-shares
+
+
+generation-major-source.csv
+https://www.eia.gov/energyexplained/electricity/electricity-in-the-us.php

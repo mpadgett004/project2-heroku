@@ -1,0 +1,11 @@
+number-without-electricity-by-region.csv
+https://ourworldindata.org/energy-overview
+
+renewable_energy_consumption.csv
+https://ourworldindata.org/grapher/renewable-energy-consumption?country=~OWID_WRL
+
+renewable-energy-gen.csv
+https://ourworldindata.org/grapher/renewable-energy-gen?country=~OWID_WRL
+
+sub-energy-fossil-renewables-nuclear.csv
+https://ourworldindata.org
