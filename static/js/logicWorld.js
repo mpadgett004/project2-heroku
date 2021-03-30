@@ -239,7 +239,7 @@ function buildPlot5() {
             const layout = {
                 // width: 1200,
                 // height: 400,
-                title: '<b>Power Consupltion on a Global Scale</b>',
+                title: '<b>Power Consumption on a Global Scale</b>',
                 xaxis: {
                     tickfont: {
                         size: 14,

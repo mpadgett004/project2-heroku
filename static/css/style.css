@@ -16,7 +16,7 @@ html {
   transform: rotate(20deg); 
  } */
 
- /* #canvas-basic {
+ #canvas-basic {
   position: absolute;
   display: block;
   width: 100%;
@@ -25,4 +25,5 @@ html {
   right: 0;
   bottom: 0;
   left: 0;
-} */
+  opacity: 0.5;
+}

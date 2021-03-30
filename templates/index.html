@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <!-- Our CSS -->
-    <!-- <link rel="stylesheet" type="text/css" href="static/css/style.css"> -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+    
 </head>
 
 <body>
@@ -35,7 +36,7 @@
           <canvas id="canvas-basic"></canvas>
             <h2>Project 2: Renewable Energy</h2>
             <h4>Taking a closer look at renewable energy generation and consumption</h4>
-          </canvas>
+          
         </div>
         <!-- <div class="row">
           <div class="col-sm">
@@ -44,6 +45,9 @@
           </div>
         </div>   -->
     </div>
+  
+    
+  
   
     
 
@@ -62,6 +66,9 @@
     <!-- Our JavaScript -->
     <!-- <script type="text/javascript" src="static/logic.js"></script> -->
     <script type="text/javascript" src="{{ url_for('static', filename='js/logic2.js') }}"></script>
+
+    <script src="https://cdn.tutorialjinni.com/granim/2.0.0/granim.js"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/granimfile.js') }}"></script>
 
     
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
