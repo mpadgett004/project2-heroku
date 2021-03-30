@@ -134,7 +134,7 @@ function buildPlot2() {
     const data = response;
 
     const layout = {
-      title: 'US Power Generation',
+      title: '<b>US Power Generation</b>',
       xaxis: {
         tickfont: {
           size: 14,
@@ -176,6 +176,7 @@ function buildTable() {
     var rowEven = "black";
 
     const data = [{
+      title: '<b>US Percent Energy Usage Per Source</b>',
       type: 'table',
       //columnorder: [1,2],
       columnwidth: [75,60,50,50,50,50,50,50,50,50],
